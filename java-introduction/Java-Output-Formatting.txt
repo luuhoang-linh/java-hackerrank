@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    
+    
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+
+        String str1 = sc.next();
+        int num1 = sc.nextInt();
+        String str2 = sc.next();
+        int num2 = sc.nextInt();
+        String str3 = sc.next();
+        int num3 = sc.nextInt();
+
+        sc.close();
+
+        System.out.println("================================");
+        System.out.printf("%-15s", str1);
+        System.out.printf("%03d\n", num1);
+        System.out.printf("%-15s", str2);
+        System.out.printf("%03d\n", num2);
+        System.out.printf("%-15s", str3);
+        System.out.printf("%03d\n", num3);
+        System.out.println("================================");
+    }
+}
